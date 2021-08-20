@@ -13,5 +13,4 @@ RUN php -r "unlink('composer-setup.php');"
 COPY ./src /usr/share/nginx/html
 RUN cd /usr/share/nginx/html
 WORKDIR /usr/share/nginx/html
-RUN ls
 RUN composer update
