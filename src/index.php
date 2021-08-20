@@ -19,9 +19,8 @@ class api
                 'lotomania',
                 'timemania',
                 'diadesorte',
-                'supersete',
-                'all'
-            ]]);
+                'supersete'
+            ],'parametro para envio'=>'resultado']);
         }
 
         if (($_GET['resultado'] != 'megasena') && $_GET['resultado'] != 'lotofacil' && $_GET['resultado'] != 'quina'
