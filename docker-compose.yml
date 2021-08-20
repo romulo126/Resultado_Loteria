@@ -10,8 +10,8 @@ services:
 
     api:
         #build: .
-        image: api_loterica_resultado
-        container_name: api_loterica_resultado
+        image: api_loterica
+        container_name: api_loterica
         ports: 
             - 5000:80
 

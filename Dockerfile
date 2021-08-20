@@ -15,4 +15,3 @@ RUN cd /usr/share/nginx/html
 WORKDIR /usr/share/nginx/html
 RUN ls
 RUN composer update
-RUN ln -s ./micro_servico html
